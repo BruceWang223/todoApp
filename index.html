@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <title>To Do List</title>
+  </head>
+  <body>
+  	<div id="wrapper">
+	    <header>
+	    	<div id="page-banner">
+				<h1 class="title">To Do List</h1>
+	        	<form id="search-toDo">
+	        		<input type="text" id ='search' placeholder="Search to do lists..." />
+	        		<label for="search" id='label'>Search to do lists...</label>
+	        	</form>
+	    	</div>
+	    </header>
+	    <div id="toDo-list">
+	    	<h2 class="title">Things to do</h2>
+	    	<ul>
+	    		<li>
+	    			<span class="delete">
+	    				<i class="fas fa-trash"></i>
+	    			</span>
+	    				watch a movie
+	    		</li>
+	    		<li>
+	    			<span class="delete">
+	    				<i class="fas fa-trash"></i>
+	    			</span>
+	    			see a doctor
+	    		</li>
+	    		<li>
+	    			<span class="delete">
+	    				<i class="fas fa-trash"></i>
+	    			</span>
+	    			call my father
+	    		</li>
+	    	</ul>
+	    </div>
+	    <form id="add-toDo">
+	    	<input type="text" placeholder="Add a to do thing..." />
+	    	<button>Add</button>
+	    </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
